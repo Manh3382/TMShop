@@ -1,0 +1,73 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: #2196f3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#wp-form-login {
+    background: #fff;
+    padding: 30px 25px;
+    border-radius: 12px;
+    box-shadow: 0px 8px 20px rgba(0,0,0,0.15);
+    width: 320px;
+    text-align: center;
+    color: #ff0000;
+}
+
+#wp-form-login a{
+    display: inline-block; 
+    margin: 0 5px;
+    color: #007bff;
+    text-decoration: none;
+}
+
+#wp-form-login h1 {
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+}
+
+#form-login input {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    outline: none;
+    font-size: 14px;
+}
+
+#form-login input:focus {
+    border-color: #2196f3;
+}
+
+#btn-login {
+    background: #2196f3;
+    border: none;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#btn-login:hover {
+    background: #1976d2;
+}
+
+#lose-pass {
+    display: block;
+    margin-top: 12px;
+    font-size: 14px;
+    color: #2196f3;
+    text-decoration: none;
+}
+
+#lose-pass:hover {
+    text-decoration: underline;
+}
