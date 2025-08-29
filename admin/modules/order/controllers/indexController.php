@@ -14,4 +14,10 @@ function updateAction() {
     echo $id;
 }
 
+function listOrderAction(){
+    load_View('listOrder');
+}
 
+function listCustomerAction(){
+    load_View('listCustomer');
+}

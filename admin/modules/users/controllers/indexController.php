@@ -107,5 +107,6 @@ function updateAction() {
 
 function resetAction(){
     
+    load_view('reset');
 }
 
